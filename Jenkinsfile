@@ -48,7 +48,7 @@ pipeline {
 
     stage('Deploy') {
       steps {
-        echo 'Pulling Docker image and running on production server...'
+        echo 'Pulling to Docker image and running on production server...'
       }
     }
   }
